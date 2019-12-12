@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d23b3bed-c614-4959-a83f-80f95148efa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/CouchBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/configReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d23b3bed-c614-4959-a83f-80f95148efa3" name="Default Changelist" comment="CouchBase">
+      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/extractCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nbcuni/test/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nbcuni/test/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/ResponsePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/ResponsePOJO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/TestPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/TestPOJO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/tests/Validate_VamRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/tests/Validate_VamResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/tests/Validate_VamResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/PropertyParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/PropertyParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/configReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/configReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +50,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +73,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.vamservice.tests">
-    <configuration name="CouchBaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Validate_VamResponseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-sqevam" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +82,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vamservice.tests" />
-      <option name="MAIN_CLASS_NAME" value="vamservice.tests.CouchBaseTest" />
+      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_VamResponseTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -85,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Validate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Validate_VamResponseTest.readDataFromFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-sqevam" />
       <extension name="coverage">
         <pattern>
@@ -94,25 +99,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vamservice.tests" />
-      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Validate_VamRequestTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-sqevam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vamservice.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vamservice.tests" />
-      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_VamRequestTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_VamResponseTest" />
+      <option name="METHOD_NAME" value="readDataFromFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,6 +112,24 @@
       <module name="test-sqevam" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extractCSV.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-sqevam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vamservice.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vamservice.utils" />
+      <option name="MAIN_CLASS_NAME" value="vamservice.utils.extractCSV" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.vamservice.tests" />
-        <item itemvalue="TestNG.CouchBaseTest" />
-        <item itemvalue="TestNG.Validate" />
+        <item itemvalue="TestNG.Validate_VamResponseTest" />
+        <item itemvalue="TestNG.extractCSV.test1" />
         <item itemvalue="TestNG./Users/jovidonbegov/Desktop/testsqevam/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.Validate_VamRequestTest" />
+        <item itemvalue="TestNG.Validate_VamResponseTest.readDataFromFile" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575492227798</updated>
     </task>
+    <task id="LOCAL-00001" summary="CouchBase">
+      <created>1575574054026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575574054026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CouchBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="CouchBase" />
   </component>
 </project>

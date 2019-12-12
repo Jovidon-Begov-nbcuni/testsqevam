@@ -6,6 +6,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.asserts.SoftAssert;
@@ -48,11 +49,13 @@ public class BaseTest {
 
     private static Response callApiUrl(String url) {
 
-        Response response = given().
+        Response response =  given().
                 contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .when()
                 .get(url);
+        //Assert.assertEquals(response.statusCode(),200);
+
         return response;
     }
 
@@ -75,7 +78,8 @@ public class BaseTest {
                 + testPojo.getAppVersion() + "&cdnName=" + testPojo.getCdnName() + "&sdkVersion="
                 + testPojo.getSdkVersion() + "&playerWidthPixels=" + testPojo.getPlayerWidthPixels()
                 + "&playerHeightPixels=" + testPojo.getPlayerHeightPixels() + "&coppaApplies="
-                + testPojo.getCoppaApplies() + "&isBingeViewer=" + testPojo.getIsBingeViewer() + "&obfuscatedFreewheelProfileId=" + testPojo.getObfuscatedFreewheelProfileId() + "&adCompatibilityEncodingProfile=" + testPojo.getAdCompatibilityEncodingProfile();
+                + testPojo.getCoppaApplies() + "&isBingeViewer=" + testPojo.getIsBingeViewer() + "&obfuscatedFreewheelProfileId="
+                + testPojo.getObfuscatedFreewheelProfileId() + "&adCompatibilityEncodingProfile=" + testPojo.getAdCompatibilityEncodingProfile();
         extentTest.log(LogStatus.INFO, "URL : " + url);
         return url;
     }
