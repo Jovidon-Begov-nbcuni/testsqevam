@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d23b3bed-c614-4959-a83f-80f95148efa3" name="Default Changelist" comment="CouchBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/extractCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/CouchBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/CouchBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/extractCSV.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nbcuni/test/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nbcuni/test/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/ResponsePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/ResponsePOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/TestPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/TestPOJO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/Environment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/PropertyParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/PropertyParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/configReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/configReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.vamservice.tests">
-    <configuration name="Validate_VamResponseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Validate_Vam" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-sqevam" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vamservice.tests" />
-      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_VamResponseTest" />
+      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_Vam" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Validate_VamResponseTest.readDataFromFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Validate_Vam.validateVamResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-sqevam" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +97,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vamservice.tests" />
-      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_VamResponseTest" />
-      <option name="METHOD_NAME" value="readDataFromFile" />
+      <option name="MAIN_CLASS_NAME" value="vamservice.tests.Validate_Vam" />
+      <option name="METHOD_NAME" value="validateVamResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.vamservice.tests" />
-        <item itemvalue="TestNG.Validate_VamResponseTest" />
-        <item itemvalue="TestNG.extractCSV.test1" />
         <item itemvalue="TestNG./Users/jovidonbegov/Desktop/testsqevam/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.Validate_VamResponseTest.readDataFromFile" />
+        <item itemvalue="TestNG.Validate_Vam" />
+        <item itemvalue="TestNG.Validate_Vam.validateVamResponse" />
+        <item itemvalue="TestNG.extractCSV.test1" />
       </list>
     </recent_temporary>
   </component>

@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.*;
 
 
 
-public class CouchBaseTest extends BaseTest {
+public class CouchBaseTest extends TestBase {
 
     public static Response couchbaseResponse;
 
