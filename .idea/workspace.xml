@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d23b3bed-c614-4959-a83f-80f95148efa3" name="Default Changelist" comment="CouchBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/CouchBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/CouchBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_Vam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/tests/Validate_VamResponseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vamservice/utils/extractCSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataSheet/testdata1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PropertyFiles/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataSheet/testdata1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PropertyFiles/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/ResponsePOJO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nbcuni/test/POJO/TestPOJO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/tests/CouchBaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/vamservice/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vamservice/utils/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentFiles/Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.vamservice.tests">
+  <component name="RunManager" selected="TestNG./Users/jovidonbegov/Desktop/testsqevam/src/test/resources/testng.xml">
     <configuration name="Validate_Vam" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-sqevam" />
       <extension name="coverage">
@@ -152,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.vamservice.tests" />
         <item itemvalue="TestNG./Users/jovidonbegov/Desktop/testsqevam/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.vamservice.tests" />
         <item itemvalue="TestNG.Validate_Vam" />
         <item itemvalue="TestNG.Validate_Vam.validateVamResponse" />
         <item itemvalue="TestNG.extractCSV.test1" />
