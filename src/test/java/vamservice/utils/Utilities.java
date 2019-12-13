@@ -11,7 +11,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+
 import static io.restassured.RestAssured.given;
+import static vamservice.utils.TestBase.*;
 
 public class Utilities {
 
@@ -53,8 +56,8 @@ public class Utilities {
     }
 
     public static Response returnVamResponse(int i) {
-        RestAssured.baseURI = TestBase.vam_env;
-        TestBase.vamResponse = given()
+        RestAssured.baseURI = vam_env;
+        vamResponse = given()
                 .queryParam("brand", csvReader().get(i).get("brand"))
                 .queryParam("appName", csvReader().get(i).get("appName"))
                 .queryParam("platform", csvReader().get(i).get("platform"))
@@ -83,7 +86,7 @@ public class Utilities {
                 .queryParam("streamType", csvReader().get(i).get("streamType"))
                 .queryParam("obfuscatedFreewheelProfileId", csvReader().get(i).get("obfuscatedFreewheelProfileId"))
                 .when().get(configReader.getProperty("endPoint"));
-        return TestBase.vamResponse;
+        return vamResponse;
     }
 
 

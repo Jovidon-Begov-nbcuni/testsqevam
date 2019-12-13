@@ -3,14 +3,10 @@ package vamservice.tests;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.relevantcodes.extentreports.LogStatus;
-import org.testng.Assert;
+import static org.testng.Assert.*;
 import org.testng.annotations.Test;
 
-
 import vamservice.utils.*;
-
-
-
 import static vamservice.utils.Utilities.*;
 
 
@@ -27,7 +23,7 @@ public class Validate_Vam extends TestBase {
                 extentTest.log(LogStatus.INFO, "URL : " + vam_env+configReader.getProperty("endPoint"));
                 System.out.println(vamResponse.getBody().asString());
                 softAssert.assertEquals( vamResponse.statusCode(),200);
-                Assert.assertEquals(vamResponse.statusCode(),200);
+                assertEquals(vamResponse.statusCode(),200);
                 JsonObject bodyObject = new JsonParser().parse(vamResponse.body().asString()).getAsJsonObject();
                 JsonObject globalParamObject = bodyObject.getAsJsonObject("globalParameters");
                 JsonObject keyValuesObject = bodyObject.getAsJsonObject("keyValues");

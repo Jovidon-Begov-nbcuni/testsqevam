@@ -1,4 +1,4 @@
-package com.nbcuni.test.POJO;
+package vamservice.Pojo;
 
 public class TestPOJO {
 

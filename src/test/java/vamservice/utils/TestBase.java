@@ -1,10 +1,8 @@
 package vamservice.utils;
 
-import com.nbcuni.test.POJO.TestPOJO;
+import vamservice.Pojo.TestPOJO;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;

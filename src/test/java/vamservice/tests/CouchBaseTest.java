@@ -21,27 +21,29 @@ public class CouchBaseTest extends TestBase {
 
 
     @Test(priority = -1)
-    public void Testing_Couchbase_is_up_and_running() {
+    public void Testing_Couchbase_is_up_and_running() throws Throwable {
         extentTest = extentReports.startTest("Validate health check status");
 
-
+        int j=0;
+        Throwable t=new Throwable();
         for (int i = 1; i < 11; i++) {
             try {
                 RestAssured.baseURI = configReader.getProperty("couchbase" + i);
                 couchbaseResponse = get("");
 
-                Assert.assertEquals(200, couchbaseResponse.statusCode());
+                Assert.assertEquals(couchbaseResponse.statusCode(),200);
                 extentTest.log(LogStatus.PASS,configReader.getProperty("couchbase" + i));
                 extentTest.log(LogStatus.INFO,"Milliseconds:  "+couchbaseResponse.getTimeIn(TimeUnit.MILLISECONDS));
                 extentReports.endTest(extentTest);
 
             }catch(Throwable e){
+                t=e; j++;
                 extentTest.log(LogStatus.INFO,e.fillInStackTrace());
-                extentTest.log(LogStatus.INFO,"No connection with Couchbase");
-                throw e;
+                extentTest.log(LogStatus.FAIL,"No connection with Couchbase:  " + configReader.getProperty("couchbase" + i));
             }
         }
-        extentTest.log(LogStatus.PASS,"Couchbase is Active");
+        if(j>0) throw t;
+
 
     }
 
