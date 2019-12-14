@@ -57,7 +57,7 @@ public class Utilities {
 
     public static Response returnVamResponse(int i) {
         RestAssured.baseURI = vam_env;
-        vamResponse = given()
+        vamResponse =given()
                 .queryParam("brand", csvReader().get(i).get("brand"))
                 .queryParam("appName", csvReader().get(i).get("appName"))
                 .queryParam("platform", csvReader().get(i).get("platform"))
