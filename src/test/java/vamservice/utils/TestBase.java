@@ -25,7 +25,7 @@ public class TestBase {
     protected static ExtentReports extentReports;
     protected static ExtentTest extentTest;
     protected static Response vamResponse;
-    protected static String vam_env = configReader.getProperty("vam.dev.base");
+    protected static String vam_env = configReader.getProperty("env");
 
 
 
@@ -37,7 +37,7 @@ public class TestBase {
         testPOJO = new TestPOJO();
         softAssert = new SoftAssert();
         extentReports = new ExtentReports(System.getProperty("user.dir") + "/test-output/ExtentFiles/Report.html", true);
-        extentReports.addSystemInfo("Environment", envProp.getProperty("currentenv").substring(10, 13).toUpperCase())
+        extentReports.addSystemInfo("Environment", properties.getProperty("env").substring(10, 13).toUpperCase())
                 .loadConfig(new File(System.getProperty("user.dir") + "/test-output/extent-config.xml"));
 
 
